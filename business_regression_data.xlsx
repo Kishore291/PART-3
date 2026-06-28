@@ -319,3 +319,19 @@ STR-1080	2025-01	East	Residential	76614.32	5639	0.174	15	92.9	1.02	1	4	620264.2	
 STR-1080	2025-02	East	Residential	24088.06	3466	0	11	88	0.2	0	3.8	536845.42	107473.75
 STR-1080	2025-03	East	Residential	81902.58	7775	0.215	20	85.2	4.89	1	4.2	726776.22	90804.49
 STR-1080	2025-04	East	Residential	40553.11	5317	0.165	17	84.3	11.82	0	4.1	559660.84	71443.61
+
+Column	Description
+store_id	Unique store identifier.
+month	Reporting month.
+region	Business region.
+store_type	Mall, High Street, Residential, or Airport.
+marketing_spend	Monthly marketing spend for the store.
+footfall	Monthly visitor count.
+avg_discount_pct	Average discount percentage for the month.
+staff_count	Number of store staff.
+inventory_availability_pct	Average product availability percentage.
+competitor_distance_km	Distance to nearest competitor.
+holiday_flag	1 if the month/store period had a meaningful holiday effect; otherwise 0.
+customer_rating	Average customer rating.
+monthly_sales	Dependent variable for sales regression.
+monthly_profit	Optional secondary business metric.
